@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+/*font-family: 'Vina Sans', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav section {
+    display: flex;
+}
+
+header nav {
+    height: 10vh;
+    box-shadow: 0 0 5em 0;
+}
+
+header nav section:first-child {
+    width: 70%;
+}
+
+header nav section:nth-child(2) {
+    width:30%;
+}
+
+header nav section:first-child a {
+    width: 15%;
+    font-family: 'Vina Sans', cursive;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav section:nth-child(2) article {
+    width: 100%;
+    font-family: 'Vina Sans', cursive;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav section:first-child a:hover{
+    background-color: black;
+    color: white;
+}
+
+header .container {
+    height: 90vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .frase p {
+    font-family: 'Vina Sans', cursive;
+    font-size: 600%;
+    height: 100%;
+    width: 100%;
+}
+
+.frase p span {
+    color: white;
+    -webkit-text-stroke: 2.5px black;
+}
+
+.frase p span:hover {
+    color: black;
+}
+
+
+
