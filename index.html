@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <title>Portfolio De Oussama</title>
 </head>
 <body>
     <header>
+
         <nav>
             <section class="enlaces">
                 <a href="#">Intro</a>
@@ -22,6 +24,7 @@
                 </article>
             </section>
         </nav>
+
         <section class="container-header">
             <div class="frase">
                 <p>ME ENCANTA <span>CREAR</span> <br><span>COSAS</span> DIVERTIDAS E <br> INTERACTIVAS <span>CON</span> <br> <span>CÓDIGO</span></p>
@@ -31,5 +34,107 @@
             </div>
         </section>
     </header>
+
+    <main class="cuerpo-pag">
+
+        <section class="sobre-mi">
+            <article class="title-sobremi">
+                <h1>SOBRE MI</h1>
+            </article>
+            <article class="carrusel">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="aplicacion-movil.png" alt="APPS" class="intro-sobremi">
+                            <p>
+                                ¡Hola! Soy Oussama Ed Dahabi Lakhal, un creador de 
+                                aplicaciones multiplataforma que se dedica 
+                                a crear experiencias digitales cautivadoras y que al mismo tiempo den 
+                                solución a los problemás de los usuarios.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="ciencias.png" alt="APPS" class="ajuste-imagenes">
+                            <p>
+                                Una vez que me saque el Bachillerato de Ciencias (Modalidad : Tecnológico), ya 
+                                tenía claro que quería hacer algo relacionado con la informática
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="desarrollo-movil.png" alt="APPS" class="ajuste-imagenes">
+                            <p>
+                                Mi viaje como Desarrollador de Aplicaciones Multiplaforma lo inicie en Granada (España),
+                                donde me hallo estudiando un GS de Desarrollo de Aplicaciones Multiplaforma (DAM)
+                                en el Instituto HLanz
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="inspiracion.png" alt="APPS" class="ajuste-imagenes">
+                            <p>
+                                Manejo varias habilidades como Java, SQL, HTML y CSS. Obviamente, las sigo 
+                                perfeccionando día tras día. 
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="trabajo-en-equipo.png" alt="APPS" class="ajuste-imagenes">
+                            <p>
+                                En cuanto a lo personal, me considero una persona extrovertida, trabajadora y 
+                                que le gusta trabajar en equipo.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="lista-de-verificacion.png" alt="APPS" class="ajuste-imagenes">
+                            <p>
+                                Una de las cualidades que me caracterizan, es que soy una persona que si se plantea un objetivo 
+                                no para hasta conseguirlo o consigue un resultado similar, independientemente del tiempo que tome.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sub">
+                            <img src="deportes-con-balones.png" alt="APPS" class="ajuste-imagenes">
+                            <p>
+                                Aparte de eso, me gusta jugar al futbol, practicar deporte en general y viajar.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>    
+            </article>    
+            </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+
+        const swiper = new Swiper('.swiper', {
+        loop: false,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+
+    </script>
 </body>
 </html>

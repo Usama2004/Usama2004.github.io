@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
-/*font-family: 'Vina Sans', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Teko:wght@500&family=Vina+Sans&display=swap');
+/*
+- font-family: 'Roboto Mono', monospace;
+- font-family: 'Teko', sans-serif;
+- font-family: 'Vina Sans', cursive;
+*/
 
 * {
     padding: 0;
@@ -29,7 +33,7 @@ nav {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 0.5%;
+    margin: 1%;
 }
 
 .enlaces {
@@ -145,6 +149,98 @@ nav {
     height: 55%;
     margin-bottom: 10%;
 }
+
+.sobre-mi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    width: 100%;
+    font-family: 'Vina Sans', cursive;
+
+}
+
+.title-sobremi {
+    width: 35%;
+    height: 50vh;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    border-radius: 1rem;
+}
+
+.sobre-mi .title-sobremi h1 {
+    font-size: 5em;
+    -webkit-text-stroke: 0.0001em black;
+    color: white;
+}
+ 
+.carrusel {
+    width: 55%;
+    height: 50vh;
+    flex-shrink: 1;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+                -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.swiper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    width: 80%;
+    height: 80%;
+    padding: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-sobremi {
+    height: 70%;
+    width: 20%;
+    margin: 0.5%;
+}
+
+.ajuste-imagenes {
+    height: 5em;
+    width: 5em;
+    margin: 1rem;
+}
+
+.swiper-slide p {
+    height: 100%;
+    width: 65%;
+    margin: 0.5%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
