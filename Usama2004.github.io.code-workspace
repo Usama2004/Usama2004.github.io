@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Testing/cypress"
+		},
+		{
+			"path": "../../../../BBDD"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Usama2004.github.io"
+	}
+}

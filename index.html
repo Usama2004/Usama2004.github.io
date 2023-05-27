@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/5ee194a1ab.js" crossorigin="anonymous"></script>
     <title>Portfolio De Oussama</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
 
         <nav>
             <section class="enlaces">
-                <a href="#">Intro</a>
-                <a href="#">Sobre Mi</a>
-                <a href="#">FAQ</a>
-                <a href="#">Contactar</a>
+                <a href="#intro">Intro</a>
+                <a href="#sobre-mi">Sobre Mi</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contactar">Contactar</a>
             </section>
             <section class="logo">
                 <article>
@@ -25,28 +26,28 @@
             </section>
         </nav>
 
-        <section class="container-header">
+        <section class="container-header" id="intro">
             <div class="frase">
                 <p>ME ENCANTA <span>CREAR</span> <br><span>COSAS</span> DIVERTIDAS E <br> INTERACTIVAS <span>CON</span> <br> <span>CÓDIGO</span></p>
             </div>
             <div class="imagen">
-                <img src="img-portada.png" alt="">
+                <img src="/imagenes/img-portada.png" alt="">
             </div>
         </section>
     </header>
 
     <main class="cuerpo-pag">
 
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobre-mi">
             <article class="title-sobremi">
-                <h1>SOBRE MI</h1>
+                <p>SOBRE MI</p>
             </article>
             <article class="carrusel">
                 <div class="swiper">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="aplicacion-movil.png" alt="APPS" class="intro-sobremi">
+                            <img src="/imagenes/aplicacion-movil.png" alt="APPS" class="intro-sobremi">
                             <div class="center-text">
                                 <p>
                                     ¡Hola! Soy Oussama Ed Dahabi Lakhal, un creador de 
@@ -59,7 +60,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="ciencias.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/ciencias.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     Una vez que me saque el Bachillerato de Ciencias (Modalidad : Tecnológico), ya 
@@ -70,7 +71,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="desarrollo-movil.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/desarrollo-movil.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     Mi viaje como Desarrollador de Aplicaciones Multiplaforma lo inicie en Granada (España),
@@ -82,7 +83,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="inspiracion.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/inspiracion.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     Manejo varias habilidades como Java, SQL, HTML y CSS. Obviamente, las sigo 
@@ -93,7 +94,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="trabajo-en-equipo.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/trabajo-en-equipo.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     En cuanto a lo personal, me considero una persona extrovertida, trabajadora y 
@@ -104,7 +105,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="lista-de-verificacion.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/lista-de-verificacion.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     Una de las cualidades que me caracterizan, es que soy una persona que si se plantea un objetivo 
@@ -115,7 +116,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="deportes-con-balones.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/deportes-con-balones.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     Aparte de eso, me gusta jugar al futbol, practicar deporte en general y viajar.
@@ -125,7 +126,7 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="sub">
-                            <img src="comunicar.png" alt="APPS" class="ajuste-imagenes">
+                            <img src="/imagenes/comunicar.png" alt="APPS" class="ajuste-imagenes">
                             <div class="center-text">
                                 <p>
                                     Puedes hacerme cualquier pregunta que tengas en la sección de <a href="#">contacto</a>.
@@ -140,9 +141,9 @@
                 </div>    
             </article>    
         </section>
-        <section class="container-faq">
+        <section class="container-faq" id="faq">
             <div class="title-faq">
-                <h1>FAQ</h1>
+                <p>FAQ</p>
             </div>
 			<div class="pregunta">
 				<div class="pregunta_encabezado">
@@ -204,13 +205,116 @@
 				</div>
 			</div>
 		</section>
-        <section class="container-form">
-            <form>
-                
-            </form>
-        </section>
+        <form class="container-form" id="contactar">
+            <div class="mensaje-contacto">
+                <p>
+                    SECCIÓN DE 
+                    CONTACTO
+                </p>
+            </div>
+            <div class="our-info2">
+                <div class="location info-contacto">
+                    <img src="/imagenes/maps-and-location.png" alt="Logo de Ubicación">
+                    <p>Ventas de Zafarraya, Granada, España</p>
+                </div>
+                <div class="telefono info-contacto">
+                    <img src="/imagenes/llamada-telefonica.png" alt="telefono">
+                    <p>+34 455 555 444</p>
+                </div>
+                <div class="email info-contacto">
+                    <img src="/imagenes/email.png" alt="email">
+                    <p>ossamadev@gmail.com</p>
+                </div>
+            </div>
+            <fieldset>
+                <div class="our-info">
+                    <div class="location info-contacto">
+                        <img src="/imagenes/maps-and-location.png" alt="Logo de Ubicación">
+                        <p>Ventas de Zafarraya, Granada, España</p>
+                    </div>
+                    <div class="telefono info-contacto">
+                        <img src="/imagenes/llamada-telefonica.png" alt="telefono">
+                        <p>+34 455 555 444</p>
+                    </div>
+                    <div class="email info-contacto">
+                        <img src="/imagenes/email.png" alt="email">
+                        <p>ossamadev@gmail.com</p>
+                    </div>
+                </div>
+                <div class="input-info">
+                    <div class="full-name">
+                        <label for="nombre-completo">Nombre completo</label> <br>
+                        <input type="text" name="nombre-completo" id="nombre-completo">
+                    </div>
+                    <div class="phone-email">
+                        <div class="phone-call">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" name="telefono" id="telefono">
+                        </div>
+                        <div class="email-contact">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="text-area">
+                        <label for="area-de-texto">Mensaje</label>
+                        <textarea id="area-de-texto" rows="10"></textarea>
+                        <button type="submit" id="button-submit">Enviar</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
         
     </main>
+
+    <footer class="footer1">
+        <div class="wrapper">
+            <div class="social-media">
+                <div class="icon facebook">
+                    <div class="tooltip">
+                        Facebook
+                    </div>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </div>
+                <div class="icon twitter">
+                    <div class="tooltip">
+                        Twitter
+                    </div>
+                    <span><i class="fab fa-twitter"></i></span>
+                </div>
+                <div class="icon instagram">
+                    <div class="tooltip">
+                        Instagram
+                    </div>
+                    <span><i class="fab fa-instagram"></i></span>
+                </div>
+                <div class="icon github">
+                    <div class="tooltip">
+                        GitHub
+                    </div>
+                    <span><i class="fab fa-github"></i></span>
+                </div>
+                <div class="icon youtube">
+                    <div class="tooltip">
+                        YouTube
+                    </div>
+                    <span><i class="fab fa-youtube"></i></span>
+                </div>
+            </div>
+            <div class="txt-footer">
+                <p>
+                    Todos los derechos reservados - &copy; Copyright 2023
+                </p>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <div class="sub-footer2">
+            <p>
+                Todos los derechos reservados - &copy; Copyright 2023
+            </p>
+        </div>
+    </footer>
 
     <script src="script_faq.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
